@@ -10,9 +10,8 @@ import java.util.stream.Collectors;
 
 public class WordFisher {
 
-    // Please note these variables. they are the state of the object.
     public HashMap<String, Long> vocabulary;
-    public List<String> stopwords; // User ArrayList for initialization
+    public List<String> stopwords;
     private String inputTextFile;
     private String stopwordsFile;
 

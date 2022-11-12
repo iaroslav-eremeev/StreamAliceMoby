@@ -35,7 +35,7 @@ public class WordFisherTester {
 		System.out.println("The top 5 words in Alice: " + alice.getTopWords(5));
 		System.out.println("The top 10 words in Moby Dick: " + moby.getTopWords(10));
 
-		System.out.println("\nCommon popular words (if choosing from 20 most popular in each text)");
+		System.out.println("\nCommon popular words if choosing from 20 most popular in each text");
 		System.out.println(moby.commonPopularWords(20, alice));
 	}
 }
